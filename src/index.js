@@ -1,19 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
-
-import Clock from './chapter04/Clock';
-import CommentList from './chapter05/CommentList';
-import NotificationList from './chapter06/NotificationList';
-import Accommodate from './chapter07/Accommodate';
+import Calculator from './chapter12/Calculator';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
 root.render(
   <React.StrictMode>
-    <Accommodate/>
+    <Calculator/>
   </React.StrictMode>
 );
 
